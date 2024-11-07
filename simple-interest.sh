@@ -10,3 +10,5 @@ read time
 
 simple_interest=$(echo "$principal * $rate * $time / 100" | bc -l)
 echo "The Simple Interest is: $simple_interest"
+
+# Bug Fix Line
